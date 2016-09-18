@@ -4,7 +4,7 @@ Ext.define('CustomApp', {
     items:[{xtype: 'rallyiterationcombobox'}, {xtype: 'rallyreleasecombobox'}],
     layout: 'hbox',
     launch: function() {
-        //Write app code here
+        console.log ('My First App')
         //API Docs: https://help.rallydev.com/apps/2.1/doc/
     }
 });
